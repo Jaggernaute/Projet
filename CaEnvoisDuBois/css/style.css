@@ -1,1 +1,32 @@
-a
+body {
+	padding:0px;
+	margin:0px;
+}
+.coter {
+	display: flex;
+	flex-direction:row;
+}
+header {
+	display:flex;
+    justify-content:center;
+	background-color:green;
+}
+main {
+	display:flex;
+    justify-content:center;
+	background-color:brown;
+nav { 
+    display:flex;
+	
+}
+aside {
+	display:flex;
+	justify-content:flex-end;
+}
+
+footer {
+display:flex;
+justify-content:flex-end;
+background-color:green;
+flex:1;
+}
