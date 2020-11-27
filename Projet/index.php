@@ -8,7 +8,7 @@
 </head>
 <body>
 <header>
-<h1> <strong> Ca envois du bois </strong> </h1>
+<h1>  Ca envois du bois  </h1>
 </header>
 <div class="coter">
 	<nav>
@@ -25,9 +25,10 @@
 </div>
 
 <footer>
-<p> -adresse : </p>
--Mail:
--tel:
+	<ul>
+    <li> -adresse: </li>
+	<li> -Mail: </li>
+	<li> -tel: </li>
 </footer>
 </body>
 </html>

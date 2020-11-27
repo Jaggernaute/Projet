@@ -1,32 +1,46 @@
 body {
-	padding:0px;
-	margin:0px;
+	display:flex;
+	flex-direction:column;
+	margin:auto;
+	max-width: 1920px;
+	min-height: 100vh;
+
 }
 .coter {
 	display: flex;
 	flex-direction:row;
+	flex: 1;
 }
 header {
 	display:flex;
-    justify-content:center;
+     justify-content :center;
 	background-color:green;
+}
+ul {
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	margin: 0%;
+	padding: 10px;
 }
 main {
 	display:flex;
     justify-content:center;
+	flex:1;
+	padding:2px;
 	background-color:brown;
 nav { 
     display:flex;
 	
 }
 aside {
+	width : 200px;
 	display:flex;
 	justify-content:flex-end;
 }
 
 footer {
 display:flex;
-justify-content:flex-end;
+padding:2px;
 background-color:green;
-flex:1;
 }
