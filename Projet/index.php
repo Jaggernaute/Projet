@@ -22,7 +22,7 @@
 		</main>
 
 		<aside>
-			<?php include('php/include/asside/asside.php'); ?>
+			<?php include('php/include/asside.php'); ?>
 		</aside>
 	</div>
 

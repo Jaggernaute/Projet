@@ -10,7 +10,7 @@
 
 <body>
 	<header>
-		<h1> Ca envois du bois </h1>
+	<?php include('php/include/header.php'); ?>
 	</header>
 	<div class="coter">
 		<nav>
@@ -22,7 +22,7 @@
 		</main>
 
 		<aside>
-			Promo -50% sur les nouveaux clients
+		<?php include('php/include/asside.php'); ?>
 		</aside>
 	</div>
 
