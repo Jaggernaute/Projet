@@ -13,12 +13,11 @@ body {
 header {
   display: flex;
   justify-content: center;
-  background-color: green;
+  background-color: #2c3b1a;
 }
 ul {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   margin: 0%;
   padding: 10px;
 }
@@ -27,19 +26,21 @@ main {
   justify-content: center;
   flex: 1;
   padding: 2px;
-  background-color: brown;
+  background-color: #dda663;
 }
 nav {
   display: flex;
+  background-color: #65723d;
 }
 aside {
   width: 200px;
   display: flex;
   justify-content: flex-end;
+  background-color: #d58818;
 }
 
 footer {
   display: flex;
   padding: 2px;
-  background-color: green;
+  background-color: #2c3b1a;
 }

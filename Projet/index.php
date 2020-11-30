@@ -6,6 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Accueil</title>
 	<link rel="stylesheet" href="css/style.css">
+	 <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 </head>
 
 <body>
@@ -20,9 +21,10 @@
 		<main>
 			accueil
 		</main>
+		<img class="img" src="images/images/camion2.jpg" >
 
 		<aside>
-			<?php include('php/include/asside.php'); ?>
+		<?php include('php/include/asside.php'); ?>
 		</aside>
 	</div>
 

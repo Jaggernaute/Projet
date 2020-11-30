@@ -16,7 +16,7 @@
 	</nav>
 	
 	<main>
-		accueil
+		<strong>accueil</strong>
 	</main>
 
 	<aside>
