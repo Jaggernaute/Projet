@@ -15,8 +15,63 @@
 	<?php include('php/include/nav.php'); ?>
 	</nav>
 	
-	<main>
-		accueil
+	<main class="services">
+			<table id="t01">
+				<tr>
+					<th>Livraison de bois pour moins de 12 steres</th>
+					<th>Prix</th> 
+				</tr>
+				<tr>
+					<td>25 cm</td>
+					<td>65€</td>
+				</tr>
+				<tr>
+					<td>33 cm</td>
+					<td>60€</td>
+				</tr>
+				<tr>
+					<td>50 cm</td>
+					<td>55€</td>
+				</tr>
+			</table>
+
+			<table id="t01">
+				<tr>
+					<th>Livraison de bois pour plus de 12 steres</th>
+					<th>Prix</th> 
+				</tr>
+				<tr>
+					<td>25 cm</td>
+					<td>60€</td>
+				</tr>
+				<tr>
+					<td>33 cm</td>
+					<td>55€</td>
+				</tr>
+				<tr>
+					<td>50 cm</td>
+					<td>50€</td>
+				</tr>
+			</table>
+
+			<table id="t01">
+				<tr>
+					<th>Livraison de bois de chauffage sur palette</th>
+					<th>Prix</th> 
+				</tr>
+				<tr>
+					<td>25 cm</td>
+					<td>85€</td>
+				</tr>
+				<tr>
+					<td>33 cm</td>
+					<td>80€</td>
+				</tr>
+				<tr>
+					<td>50 cm</td>
+					<td>75€</td>
+				</tr>
+			</table>
 	</main>
 
 	<aside>
