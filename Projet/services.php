@@ -26,9 +26,9 @@
 
 <footer>
 	<ul>
-    <li> -adresse: </li>
-	<li> -Mail: </li>
-	<li> -tel: </li>
+    <li> -adresse: <strong> 66 route de la foret 12345 Clairière </strong>  </li>
+	<li> -Mail: <strong> labuche@caenvoiedubois.fr </strong> </li>
+	<li> -tel: <strong> 555-001</strong> </li>
 </footer>
 </body>
 </html>
