@@ -18,7 +18,12 @@
 		</nav>
 
 		<main>
-
+		<!-- <img src="images/tas bois.jpg"> -->
+		<p> <strong> Ca envoie du Bois</strong> :Votre fournisseurde bois de chauffage. 
+		 <strong>" Ca envoie du bois "</strong> vous livre votre bois de chauffage dans un rayon de 30 km autour de Rouen.
+		 Notre équipe disponible et réactive est a votre service pour une livraison rapide toute lannée
+		 
+		
 		</main>
 
 		<aside>
@@ -28,9 +33,9 @@
 
 	<footer>
 		<ul>
-			<li> -adresse: </li>
-			<li> -Mail: </li>
-			<li> -tel: </li>
+			<li> -adresse: <strong> 66 route de la foret 12345 Clairière </strong>  </li>
+			<li> -Mail: <strong> labuche@caenvoiedubois.fr </strong> </li>
+			<li> -tel: <strong> 555-001 </strong> </li>
 	</footer>
 </body>
 
