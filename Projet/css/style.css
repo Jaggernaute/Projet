@@ -35,24 +35,27 @@ main {
   opacity: 0.9;
 }
 
+iframe{
+  padding-bottom: 10px;
+
+}
+
 /* main uniquement pour la page des services */
 main.services {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   flex: 1;
   padding: 2px;
   background-color: #dca15d;
   opacity: 0.9;
-  
 }
 
 /* barre de navigation et liens */
 nav {
-  width: 200px;
+  width: 225px;
   background-color: #5f6c37;
   opacity: 0.9;
-  
 }
 
 ul {
@@ -60,7 +63,7 @@ ul {
   flex-direction: column;
   margin: 0%;
   padding: 10px;
-  list-style:none;
+  list-style: none;
 }
 
 nav ul li {
@@ -84,13 +87,6 @@ aside ul li {
   list-style: none;
 }
 
-/* aside */
-aside {
-  width: 200px;
-  background-color: #bc6c25;
-  opacity: 0.9;
-}
-
 /* footer */
 footer {
   display: flex;
@@ -109,7 +105,7 @@ form {
 
 input[type="text"] {
   border: none;
-  border-bottom: 2px solid #273617;
+  border: 2px solid #273617;
   background-color: #dca15d;
 }
 
@@ -162,14 +158,6 @@ table {
   width: 50%;
 }
 
-#t01{
-	order : -1;
-}
-
-#test{
-	display : flex;
-
-}
 table,
 th,
 td {
@@ -194,4 +182,28 @@ td {
 #t01 th {
   background-color: #273617;
   color: white;
+}
+
+
+/* aside */
+
+aside{
+  width: 220px;
+  background-color: #bc6c25;
+  opacity: 0.9;
+}
+
+.titreAside{
+  font: bold;
+}
+
+.aside{
+  background-color: #dca15d;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.contactAsside{
+  background-color: #dca15d;
+  padding: 5px;
 }
