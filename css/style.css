@@ -1,0 +1,186 @@
+/* mettre le site a la bonne taille et l'image de fond */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 1200px;
+  min-height: 100vh;
+  background-image: url("../images/background.jpg");
+}
+
+/* div utilisée pour mettre la nav bare / le main / le aside en ligne */
+.coter {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+/* pour le header (de toute les pages) */
+header {
+  display: flex;
+  justify-content: center;
+  background-color: #273617;
+  color: #f2ebbd;
+  opacity: 0.9;
+}
+
+/* main pour toutes les pages */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  padding: 2px;
+  background-color: #dca15d;
+  opacity: 0.9;
+}
+
+/* main uniquement pour la page des services */
+main.services {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: 2px;
+  background-color: #dca15d;
+  opacity: 0.9;
+}
+
+/* barre de navigation et liens */
+nav {
+  width: 300px;
+  background-color: #5f6c37;
+  opacity: 0.9;
+}
+
+ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0%;
+  padding: 10px;
+}
+
+nav ul li {
+  padding: 5px;
+  font-size: 3vw;
+}
+
+nav ul li a {
+  color: #f2ebbd;
+}
+
+nav ul li a:hover {
+  color: #273617;
+}
+
+nav ul li a.active {
+  color: #273617;
+}
+
+aside ul li {
+  list-style: none;
+}
+
+/* aside */
+aside {
+  width: 200px;
+  background-color: #bc6c25;
+  opacity: 0.9;
+}
+
+/* footer */
+footer {
+  display: flex;
+  padding: 2px;
+  background-color: #273617;
+  color: #f2ebbd;
+  opacity: 0.9;
+}
+
+/* formulaires */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: 2px solid #273617;
+  background-color: #dca15d;
+}
+
+input[type="text"]:hover {
+  transition: width 0.4s ease-in-out;
+  border: none;
+  border-bottom: 4px solid #273617;
+  background-color: #dca15d;
+}
+
+input[type="text"]:focus {
+  border: none;
+  border-bottom: 4px solid #273617;
+  background-color: #dca15d;
+}
+
+.button {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button:hover {
+  display: flex;
+  height: 50px;
+  width: 200px;
+  margin: 10px;
+  background-color: #337036;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+/* tableaux des prix */
+table {
+  margin: 5px;
+  width: 50%;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 15px;
+  text-align: left;
+}
+
+#t01 tr:nth-child(even) {
+  background-color: #bc6c25;
+}
+
+#t01 tr:nth-child(odd) {
+  background-color: #9b6e3a;
+}
+
+#t01 th {
+  background-color: #273617;
+  color: white;
+}
