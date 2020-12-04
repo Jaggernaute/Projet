@@ -3,7 +3,7 @@
 <?php if ($alea == 1) { ?>
 <ul>
     <li>
-        <p>Le lycée Marcel Sembat se situe a Sotteville-lès-Rouen</p>
+        <p id='countdown'></p>
     </li>
     <li>
         <p>Il y a des classe de la seconde a la Prepa</p>

@@ -1,3 +1,5 @@
+<!-- PAS TOUCHER -->
+
 <?php
 
 function is_page($page_name)
