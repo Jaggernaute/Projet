@@ -19,7 +19,7 @@
 		</nav>
 
 		<main>
-			<form method="get">
+			<form method="get" action="/contact_core.php">
 				<label for="fname">Prenom:</label><br>
 				<input type="text" id="fname" name="fname" placeholder="votre prenom.."><br>
 				<label for="lname">Nom:</label><br>
@@ -29,13 +29,12 @@
 				<label for="adr">Adresse:</label><br>
 				<input type="text" id="adr" name="adr" placeholder="votre adresse.."><br>
 				<label for="tel">Telephone:</label><br>
-				<input type="text" id="tel" name="tel" placeholder="votre numero de tlephone.."><br>
+				<input type="text" id="tel" name="tel" placeholder="votre numero de telephone.."><br>
 
 				<textarea name="message" placeholder="votre message" rows="10" cols="30">
    </textarea>
-   <button class="button" onclick="alert('votre message a bien été envoyé !')">envoyer</button>
+   <button type="button" class="button" onclick="alert('votre message a bien été envoyé !')">envoyer</button>
 			</form>
-
 		</main>
 
 		<aside>
@@ -45,11 +44,11 @@
 
 	<footer>
 		<ul>
-		<li> -adresse: <strong> -66 route de la foret 12345 Clairiére </strong> </li>
+			<li> -adresse: <strong> -66 route de la foret 12345 Clairiére </strong> </li>
 			<li> -Mail: <strong> -labuche@caennvoiedubois.fr </strong> </li>
 			<li> -tel: <strong> -555-0001</strong> </li>
 	</footer>
-<br>
+
 </body>
 
 </html>
