@@ -19,6 +19,9 @@
 		</nav>
 
 		<main class ="services">
+		<div id="test">
+		
+		<div id="2"> Pour toute commande de bois sur palette,un forfait livraison de 20 € est appliqué.</div> 
 		
 			<table id="t01">
 				<tr>
@@ -38,7 +41,7 @@
 					<td>55€</td>
 				</tr>
 			</table>
-
+</div>
 			<table id="t01">
 				<tr>
 					<th>Livraison de bois pour plus de 12 steres</th>
@@ -77,7 +80,6 @@
 				</tr>
 			</table>
 			
-			<div> Pour toute commande de bois sur palette,un forfait livraison de 20 € est appliqué. <br> et pour toute operation d'élagage merci de nous contacter.</div> 
 		</main>
 
 		<aside>
