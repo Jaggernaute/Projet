@@ -27,7 +27,18 @@ ul {
 nav ul li{
   padding: 5px;
   font-size: 3vw;
-  
+}
+
+nav ul li a{
+  color: #f2ebbd;
+}
+
+nav ul li a:hover{
+  color: #273617;
+}
+
+nav ul li a.active{
+  color: #273617;
 }
 
 aside ul li{
@@ -42,6 +53,16 @@ main {
   padding: 2px;
   background-color: #dca15d;
 }
+
+main.services{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1;
+  padding: 2px;
+  background-color: #dca15d;
+}
+
 nav {
   width: 300px;
   background-color: #5f6c37;
@@ -92,4 +113,33 @@ form{
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+
+table {
+  margin: 5px;
+  width: 50%;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+
+#t01 tr:nth-child(even) {
+  background-color: #bc6c25;
+}
+
+#t01 tr:nth-child(odd) {
+ background-color: #9b6e3a;
+}
+
+#t01 th {
+  background-color: #273617;
+  color: white;
 }

@@ -1,7 +1,6 @@
 <?php $alea = (rand( 1 , 2 )) ?>
 
 <?php if ($alea == 1) { ?>
-
 <ul>
     <li>
         <p>Le lycée Marcel Sembat se situe a Sotteville-lès-Rouen</p>
@@ -16,7 +15,6 @@
         <p>l'option IR est trop bien</p>
     </li>
 </ul>
-
 
 <?php } elseif ($alea == 2) { ?>
     <ul>
